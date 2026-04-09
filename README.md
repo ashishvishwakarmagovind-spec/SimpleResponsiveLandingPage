@@ -19,3 +19,6 @@ Open `index.html` in a browser or use Live Server in VS Code.
 
 ## GitHub Repository
 https://github.com/ashishvishwakarmagovind-spec/SimpleResponsiveLandingPage
+
+## Live Github Uplaod
+https://github.com/ashishvishwakarmagovind-spec/SimpleResponsiveLandingPage
