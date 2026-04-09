@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elevate Lab | Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Elevate<span>Lab</span></a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+      <label for="menu-toggle" class="menu-btn" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="tag">HTML5 • CSS3 • Responsive Design</span>
+          <h1>Create clean, modern landing pages with HTML &amp; CSS</h1>
+          <p>
+            This simple landing page is built with semantic HTML, Flexbox/Grid, and
+            media queries to ensure it looks great on desktop, tablet, and mobile screens.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-top">
+            <div class="card-icon">✦</div>
+            <div>
+              <h2>Project Snapshot</h2>
+              <p>Clean layout and responsive UI</p>
+            </div>
+          </div>
+
+          <div class="metrics">
+            <div class="metric">
+              <strong>100%</strong>
+              <span>Responsive</span>
+            </div>
+            <div class="metric">
+              <strong>3</strong>
+              <span>Core Sections</span>
+            </div>
+            <div class="metric">
+              <strong>1</strong>
+              <span>Single Page</span>
+            </div>
+          </div>
+
+          <div class="card-note">
+            Built for easy submission, quick testing, and smooth live-server preview.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span>Why this works</span>
+          <h2>Simple structure with responsive behavior</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Semantic HTML</h3>
+            <p>
+              Uses header, main, section, and footer to keep the page organized and accessible.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Flexbox & Grid</h3>
+            <p>
+              Flexible layout for the header and hero, plus grid-based cards for neat alignment.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <h3>Media Queries</h3>
+            <p>
+              Adjusts navigation, spacing, and columns on smaller screens for better readability.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <p>© 2026 Elevate Lab. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
